@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  color: #222;
+  background-color: #ececec;
+  font-family: "Bricolage Grotesque", sans-serif;
+
+  display: grid;
+  place-content: center;
+}
+
+.scenes {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+canvas {
+  box-shadow: 4px 4px 24px #0005;
+  background-color: #fffcf7;
+  border: 1px solid #0002;
+  border-radius: 12px;
+}
